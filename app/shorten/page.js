@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 const shorten = () => {
-  const [url, seturl] = useState("");
-  const [shorturl, setshorturl] = useState("");
-  const [generated, setgenerated] = useState("");
+  const [url, seturl] = useState(" ");
+  const [shorturl, setshorturl] = useState(" ");
+  const [generated, setgenerated] = useState(" ");
   const generate = () => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
