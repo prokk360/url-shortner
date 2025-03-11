@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { UseState } from "react";
 const shorten = () => {
-  const [url, seturl] = useState(" ");
+  const [url, seturl] = UseState(" ");
   const [shorturl, setshorturl] = UseState(" ");
   const [generated, setgenerated] = UseState(" ");
   const generate = () => {
