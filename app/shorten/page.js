@@ -66,11 +66,16 @@ const shorten = () => {
       </div>
       <br />
       <br />
-      {generated &&
-      <>
-      <span className="font-bold p-5">Your Link : </span>
-      <code><Link className="p-2"target="_blank" href= {generated}>{generated}</Link></code>
-      </>}
+      {generated && (
+        <>
+          <span className="font-bold p-5">Your Link : </span>
+          <code>
+            <Link className="p-2" target="_blank" href={generated}>
+              {generated}
+            </Link>
+          </code>
+        </>
+      )}
     </div>
   );
 };
