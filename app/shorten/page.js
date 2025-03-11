@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { useState } from "react";
+import { UseState } from "react";
 const shorten = () => {
   const [url, seturl] = useState(" ");
-  const [shorturl, setshorturl] = useState(" ");
-  const [generated, setgenerated] = useState(" ");
+  const [shorturl, setshorturl] = UseState(" ");
+  const [generated, setgenerated] = UseState(" ");
   const generate = () => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
