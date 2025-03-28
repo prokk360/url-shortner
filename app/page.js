@@ -24,13 +24,8 @@ export default function Home() {
           </p>
           <li className="flex gap-3">
             <Link href="/shorten">
-              <button className="flex bg-purple-400 p-2 shadow-lg rounded-lg font-bold">
+              <button className="flex bg-purple-500 p-2 shadow-lg rounded-lg font-bold hover:bg-purple-400">
                 Try now
-              </button>
-            </Link>
-            <Link href="/github">
-              <button className="flex bg-purple-400 p-2 shadow-lg rounded-lg font-bold">
-                GitHub
               </button>
             </Link>
           </li>
@@ -44,6 +39,21 @@ export default function Home() {
           />
         </div>
       </section>
+
+      <div className="flex justify-center">
+        <Image
+          className="mix-blend-darken"
+          src={"/homepage.png"}
+          alt="An image of vector"
+          height={1000}
+          width={1000}
+        />
+      </div>
+      <footer class="bg-purple-600 text-white">
+        <div class="container mx-auto text-center">
+          <p class="text-sm p-0.5">&copy; 2025 Sniply. All rights reserved.</p>
+        </div>
+      </footer>
     </main>
   );
 }

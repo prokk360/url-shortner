@@ -20,16 +20,9 @@ const Navbar = () => {
           <Link href="/contact">
             <li>Contact us</li>
           </Link>
-          <li className="flex">
-            <Link href="/shorten">
-              <button className="flex bg-purple-500 p-2 shadow-lg rounded-lg font-bold">
-                Try now
-              </button>
-            </Link>
-          </li>
           <li>
-            <Link href="/github">
-              <button className="flex bg-purple-500 p-2 shadow-lg rounded-lg font-bold">
+            <Link href="https://github.com/prokk360/url-shortner">
+              <button className="flex bg-purple-400 p-2 shadow-lg rounded-lg font-extrabold hover:bg-purple-500">
                 GitHub
               </button>
             </Link>
